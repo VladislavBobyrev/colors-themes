@@ -1,0 +1,120 @@
+html,
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+html {
+  height: 100vh;
+}
+body {
+  line-height: 1.5;
+  color: $color-secondary;
+  background: $bg-basic;
+  width: 100%;
+  height: 100%;
+}
+
+html.color-theme-in-transition,
+html.color-theme-in-transition *,
+html.color-theme-in-transition *:before,
+html.color-theme-in-transition *:after {
+  transition: all 300ms;
+  transition-delay: 0;
+}
+
+html[data-theme="dark"] .blend {
+  filter: invert(100%) hue-rotate(180deg);
+  // mix-blend-mode: screen;
+}
+
+.blend {
+  // mix-blend-mode: multiply;
+  width: 150px;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.5rem;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 1rem;
+  background: $color-secondary;
+  color: $bg-basic;
+  cursor: pointer;
+}
+.modal {
+  position: fixed;
+  top: -150%;
+  transition: 0.3s;
+}
+.modal.active {
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: $bg-primary-75;
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-body {
+  overflow: auto;
+  background: $color-secondary;
+  border-radius: 5px;
+  .card {
+    font-size: 1.2rem;
+    
+  }
+  .card-body{
+    display: grid; gap: 2rem;
+
+  }
+}
+.close {
+  font-size: 3rem;
+  font-weight: normal;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;transition: .3s;
+}
+.close:hover {
+  transform: rotate(360deg) scale(1.1);
+
+}

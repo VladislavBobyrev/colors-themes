@@ -1,0 +1,45 @@
+//===================================================== 
+//                 ОБЬЯВЛЯЕМ SCSS ПЕРЕМЕННЫЕ                                  
+//===================================================== 
+html[data-theme="dark"] {
+--color-basic                 :#1e1f20;
+--color-basic-75              :#585858BF;
+
+--color-primary               :#383838;
+--color-primary-75            :#393939BF;
+
+--color-secondary             :#EBEBEB;
+--color-secondary-50          :#4a556d80;
+
+
+--color-accent                :#37B3EC;
+
+
+--bg-basic                    :#1e1f20;
+--bg-basic-75                 :#585858BF;
+
+--bg-primary                  :#383838;
+--bg-primary-75               :#393939BF;
+
+--bg-secondary                :#EBEBEB;
+--bg-secondary-50             :#4a556d80;
+
+
+--bg-accent                   :#37B3EC;
+
+
+--neutral                     :#c4c4c4;
+
+--select-primary              :#FFFFFF;   
+
+--linear-gradient:              linear-gradient(146.22deg, #24a6e4 6.48%, #2a337d 155.29%);
+
+// PLACEHOLDER
+--placeholder                 :#f4f4f4bf;
+
+
+
+// SHADOW
+--box-shadow                  :0px 4px 15px #0000001a;
+
+}

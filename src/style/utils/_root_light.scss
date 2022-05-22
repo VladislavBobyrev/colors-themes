@@ -1,0 +1,41 @@
+//===================================================== 
+//                 ОБЬЯВЛЯЕМ SCSS ПЕРЕМЕННЫЕ                                  
+//===================================================== 
+html {
+  --color-basic                 :#f8f8f8;
+  --color-basic-75              :#F4F4F4BF;
+  
+  --color-primary               :#F6F6F6;
+  --color-primary-75            :#f4f4f4bf;
+  
+  --color-secondary             :#4A556D;
+  --color-secondary-50          :#4a556d80;
+  
+  
+  --color-accent                :#37B3EC;
+  
+  
+  --bg-basic                    :#ffffff;
+  --bg-basic-75                 :#585858BF;
+  
+  --bg-primary                  :#F6F6F6;
+  --bg-primary-75               :#f4f4f4bf;
+  
+  --bg-secondary                :#4A556D;
+  --bg-secondary-50             :#4a556d80;
+  
+  
+  --bg-accent                   :#1B99D5;
+  
+  --neutral                     :#c4c4c4;
+  
+  --select-primary              :#FFFFFF;   
+  
+  --linear-gradient:              linear-gradient(146.22deg, #24a6e4 6.48%, #2a337d 155.29%);
+  
+  // PLACEHOLDER
+  --placeholder                 :#f4f4f4bf;
+  
+  // SHADOW
+  --box-shadow                  :0px 4px 15px #0000001a; 
+}
