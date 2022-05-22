@@ -1,7 +1,9 @@
 
 ## Color-theme
+Переключение цветовых тем
 
 ![Lax 2.0 Gif](./readme.gif)
+
 ## Проект сожержит
 
 <details>
